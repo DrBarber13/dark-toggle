@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Toggle",
+  "version": "1.0",
+  "description": "Toggle any website into dark mode with one click. Remembers your choice per site.",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Toggle dark mode",
+    "default_icon": {
+      "16": "icons/off-16.png",
+      "32": "icons/off-32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+D" },
+      "description": "Toggle dark mode on the current site"
+    }
+  },
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["<all_urls>"]
+}
