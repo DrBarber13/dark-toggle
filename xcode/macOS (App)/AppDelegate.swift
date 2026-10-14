@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Dark Toggle
+//  macOS (App)
 //
 //  Created by Doc Barber on 10/14/26.
 //

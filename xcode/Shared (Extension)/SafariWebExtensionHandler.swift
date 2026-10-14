@@ -1,6 +1,6 @@
 //
 //  SafariWebExtensionHandler.swift
-//  Dark Toggle Extension
+//  Shared (Extension)
 //
 //  Created by Doc Barber on 10/14/26.
 //

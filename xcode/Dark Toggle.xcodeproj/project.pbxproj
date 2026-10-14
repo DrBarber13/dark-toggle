@@ -7,71 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE920417308026C600B3AA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE920416308026C600B3AA16 /* AppDelegate.swift */; };
-		CE92041B308026C600B3AA16 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE920419308026C600B3AA16 /* Main.html */; };
-		CE92041D308026C600B3AA16 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE92041C308026C600B3AA16 /* Icon.png */; };
-		CE92041F308026C600B3AA16 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE92041E308026C600B3AA16 /* Style.css */; };
-		CE920421308026C600B3AA16 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE920420308026C600B3AA16 /* Script.js */; };
-		CE920423308026C600B3AA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE920422308026C600B3AA16 /* ViewController.swift */; };
-		CE920426308026C600B3AA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE920424308026C600B3AA16 /* Main.storyboard */; };
-		CE920428308026C600B3AA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE920427308026C600B3AA16 /* Assets.xcassets */; };
-		CE92042F308026C600B3AA16 /* Dark Toggle Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE92042E308026C600B3AA16 /* Dark Toggle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CE920434308026C600B3AA16 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE920433308026C600B3AA16 /* SafariWebExtensionHandler.swift */; };
-		CE920444308026C700B3AA16 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE920440308026C700B3AA16 /* background.js */; };
-		CE920445308026C700B3AA16 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CE920441308026C700B3AA16 /* icons */; };
-		CE920446308026C700B3AA16 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE920442308026C700B3AA16 /* manifest.json */; };
-		CE920447308026C700B3AA16 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE920443308026C700B3AA16 /* content.js */; };
+		CE8E6D8830802FC000F262EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D8730802FC000F262EC /* AppDelegate.swift */; };
+		CE8E6D8A30802FC000F262EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D8930802FC000F262EC /* SceneDelegate.swift */; };
+		CE8E6D8D30802FC000F262EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D8B30802FC000F262EC /* LaunchScreen.storyboard */; };
+		CE8E6D9030802FC000F262EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D8E30802FC000F262EC /* Main.storyboard */; };
+		CE8E6D9930802FC000F262EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D9830802FC000F262EC /* AppDelegate.swift */; };
+		CE8E6D9C30802FC000F262EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D9A30802FC000F262EC /* Main.storyboard */; };
+		CE8E6DA330802FC000F262EC /* Dark Toggle Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE8E6DA230802FC000F262EC /* Dark Toggle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE8E6DAD30802FC000F262EC /* Dark Toggle Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE8E6DAC30802FC000F262EC /* Dark Toggle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE8E6DB230802FC000F262EC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7730802FBF00F262EC /* Main.html */; };
+		CE8E6DB330802FC000F262EC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7730802FBF00F262EC /* Main.html */; };
+		CE8E6DB430802FC000F262EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7930802FBF00F262EC /* Icon.png */; };
+		CE8E6DB530802FC000F262EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7930802FBF00F262EC /* Icon.png */; };
+		CE8E6DB630802FC000F262EC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7A30802FBF00F262EC /* Style.css */; };
+		CE8E6DB730802FC000F262EC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7A30802FBF00F262EC /* Style.css */; };
+		CE8E6DB830802FC000F262EC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7B30802FBF00F262EC /* Script.js */; };
+		CE8E6DB930802FC000F262EC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7B30802FBF00F262EC /* Script.js */; };
+		CE8E6DBA30802FC000F262EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D7C30802FBF00F262EC /* ViewController.swift */; };
+		CE8E6DBB30802FC000F262EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D7C30802FBF00F262EC /* ViewController.swift */; };
+		CE8E6DBC30802FC000F262EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7D30802FBF00F262EC /* Assets.xcassets */; };
+		CE8E6DBD30802FC000F262EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6D7D30802FBF00F262EC /* Assets.xcassets */; };
+		CE8E6DBE30802FC000F262EC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D7F30802FBF00F262EC /* SafariWebExtensionHandler.swift */; };
+		CE8E6DBF30802FC000F262EC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E6D7F30802FBF00F262EC /* SafariWebExtensionHandler.swift */; };
+		CE8E6DD530802FC000F262EC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD130802FC000F262EC /* background.js */; };
+		CE8E6DD630802FC000F262EC /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD230802FC000F262EC /* icons */; };
+		CE8E6DD730802FC000F262EC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD330802FC000F262EC /* manifest.json */; };
+		CE8E6DD830802FC000F262EC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD430802FC000F262EC /* content.js */; };
+		CE8E6DD930802FC000F262EC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD130802FC000F262EC /* background.js */; };
+		CE8E6DDA30802FC000F262EC /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD230802FC000F262EC /* icons */; };
+		CE8E6DDB30802FC000F262EC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD330802FC000F262EC /* manifest.json */; };
+		CE8E6DDC30802FC000F262EC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CE8E6DD430802FC000F262EC /* content.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE920430308026C600B3AA16 /* PBXContainerItemProxy */ = {
+		CE8E6DA430802FC000F262EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE92040B308026C600B3AA16 /* Project object */;
+			containerPortal = CE8E6D7130802FBF00F262EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE92042D308026C600B3AA16;
-			remoteInfo = "Dark Toggle Extension";
+			remoteGlobalIDString = CE8E6DA130802FC000F262EC;
+			remoteInfo = "Dark Toggle Extension (iOS)";
+		};
+		CE8E6DAE30802FC000F262EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E6D7130802FBF00F262EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E6DAB30802FC000F262EC;
+			remoteInfo = "Dark Toggle Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CE92043B308026C600B3AA16 /* Embed Foundation Extensions */ = {
+		CE8E6DC530802FC000F262EC /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
 			dstSubfolder = PlugIns;
 			files = (
-				CE92042F308026C600B3AA16 /* Dark Toggle Extension.appex in Embed Foundation Extensions */,
+				CE8E6DA330802FC000F262EC /* Dark Toggle Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+		CE8E6DCC30802FC000F262EC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				CE8E6DAD30802FC000F262EC /* Dark Toggle Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE920413308026C600B3AA16 /* Dark Toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE920416308026C600B3AA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE92041A308026C600B3AA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		CE92041C308026C600B3AA16 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		CE92041E308026C600B3AA16 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		CE920420308026C600B3AA16 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		CE920422308026C600B3AA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE920425308026C600B3AA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE920427308026C600B3AA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE920429308026C600B3AA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE92042E308026C600B3AA16 /* Dark Toggle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dark Toggle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE920433308026C600B3AA16 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		CE920435308026C600B3AA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE920440308026C700B3AA16 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension/background.js; sourceTree = "<group>"; };
-		CE920441308026C700B3AA16 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../extension/icons; sourceTree = "<group>"; };
-		CE920442308026C700B3AA16 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
-		CE920443308026C700B3AA16 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+		CE8E6D7830802FBF00F262EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		CE8E6D7930802FBF00F262EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CE8E6D7A30802FBF00F262EC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CE8E6D7B30802FBF00F262EC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CE8E6D7C30802FBF00F262EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE8E6D7D30802FBF00F262EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8E6D7F30802FBF00F262EC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CE8E6D8430802FC000F262EC /* Dark Toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E6D8730802FC000F262EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8E6D8930802FC000F262EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE8E6D8C30802FC000F262EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8E6D8F30802FC000F262EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8E6D9130802FC000F262EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E6D9630802FC000F262EC /* Dark Toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E6D9830802FC000F262EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8E6D9B30802FC000F262EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8E6D9D30802FC000F262EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E6DA230802FC000F262EC /* Dark Toggle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dark Toggle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E6DA730802FC000F262EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E6DAC30802FC000F262EC /* Dark Toggle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dark Toggle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E6DB130802FC000F262EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E6DD130802FC000F262EC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension/background.js; sourceTree = "<group>"; };
+		CE8E6DD230802FC000F262EC /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../extension/icons; sourceTree = "<group>"; };
+		CE8E6DD330802FC000F262EC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+		CE8E6DD430802FC000F262EC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE920410308026C600B3AA16 /* Frameworks */ = {
+		CE8E6D8130802FBF00F262EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
 		};
-		CE92042B308026C600B3AA16 /* Frameworks */ = {
+		CE8E6D9330802FC000F262EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		CE8E6D9F30802FC000F262EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		CE8E6DA930802FC000F262EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -79,205 +129,343 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE92040A308026C600B3AA16 = {
+		CE8E6D7030802FBF00F262EC = {
 			isa = PBXGroup;
 			children = (
-				CE920415308026C600B3AA16 /* Dark Toggle */,
-				CE920432308026C600B3AA16 /* Dark Toggle Extension */,
-				CE920414308026C600B3AA16 /* Products */,
+				CE8E6D7530802FBF00F262EC /* Shared (App) */,
+				CE8E6D7E30802FBF00F262EC /* Shared (Extension) */,
+				CE8E6D8630802FC000F262EC /* iOS (App) */,
+				CE8E6D9730802FC000F262EC /* macOS (App) */,
+				CE8E6DA630802FC000F262EC /* iOS (Extension) */,
+				CE8E6DB030802FC000F262EC /* macOS (Extension) */,
+				CE8E6D8530802FC000F262EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE920414308026C600B3AA16 /* Products */ = {
+		CE8E6D7530802FBF00F262EC /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				CE920413308026C600B3AA16 /* Dark Toggle.app */,
-				CE92042E308026C600B3AA16 /* Dark Toggle Extension.appex */,
+				CE8E6D7C30802FBF00F262EC /* ViewController.swift */,
+				CE8E6D7D30802FBF00F262EC /* Assets.xcassets */,
+				CE8E6D7630802FBF00F262EC /* Resources */,
 			);
-			name = Products;
+			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		CE920415308026C600B3AA16 /* Dark Toggle */ = {
+		CE8E6D7630802FBF00F262EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE920416308026C600B3AA16 /* AppDelegate.swift */,
-				CE920422308026C600B3AA16 /* ViewController.swift */,
-				CE920424308026C600B3AA16 /* Main.storyboard */,
-				CE920427308026C600B3AA16 /* Assets.xcassets */,
-				CE920429308026C600B3AA16 /* Info.plist */,
-				CE920418308026C600B3AA16 /* Resources */,
-			);
-			path = "Dark Toggle";
-			sourceTree = "<group>";
-		};
-		CE920418308026C600B3AA16 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CE920419308026C600B3AA16 /* Main.html */,
-				CE92041C308026C600B3AA16 /* Icon.png */,
-				CE92041E308026C600B3AA16 /* Style.css */,
-				CE920420308026C600B3AA16 /* Script.js */,
+				CE8E6D7730802FBF00F262EC /* Main.html */,
+				CE8E6D7930802FBF00F262EC /* Icon.png */,
+				CE8E6D7A30802FBF00F262EC /* Style.css */,
+				CE8E6D7B30802FBF00F262EC /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CE920432308026C600B3AA16 /* Dark Toggle Extension */ = {
+		CE8E6D7E30802FBF00F262EC /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				CE92043F308026C700B3AA16 /* Resources */,
-				CE920433308026C600B3AA16 /* SafariWebExtensionHandler.swift */,
-				CE920435308026C600B3AA16 /* Info.plist */,
+				CE8E6DD030802FC000F262EC /* Resources */,
+				CE8E6D7F30802FBF00F262EC /* SafariWebExtensionHandler.swift */,
 			);
-			path = "Dark Toggle Extension";
+			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		CE92043F308026C700B3AA16 /* Resources */ = {
+		CE8E6D8530802FC000F262EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE920440308026C700B3AA16 /* background.js */,
-				CE920441308026C700B3AA16 /* icons */,
-				CE920442308026C700B3AA16 /* manifest.json */,
-				CE920443308026C700B3AA16 /* content.js */,
+				CE8E6D8430802FC000F262EC /* Dark Toggle.app */,
+				CE8E6D9630802FC000F262EC /* Dark Toggle.app */,
+				CE8E6DA230802FC000F262EC /* Dark Toggle Extension.appex */,
+				CE8E6DAC30802FC000F262EC /* Dark Toggle Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E6D8630802FC000F262EC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E6D8730802FC000F262EC /* AppDelegate.swift */,
+				CE8E6D8930802FC000F262EC /* SceneDelegate.swift */,
+				CE8E6D8B30802FC000F262EC /* LaunchScreen.storyboard */,
+				CE8E6D8E30802FC000F262EC /* Main.storyboard */,
+				CE8E6D9130802FC000F262EC /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CE8E6D9730802FC000F262EC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E6D9830802FC000F262EC /* AppDelegate.swift */,
+				CE8E6D9A30802FC000F262EC /* Main.storyboard */,
+				CE8E6D9D30802FC000F262EC /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CE8E6DA630802FC000F262EC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E6DA730802FC000F262EC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CE8E6DB030802FC000F262EC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E6DB130802FC000F262EC /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CE8E6DD030802FC000F262EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E6DD130802FC000F262EC /* background.js */,
+				CE8E6DD230802FC000F262EC /* icons */,
+				CE8E6DD330802FC000F262EC /* manifest.json */,
+				CE8E6DD430802FC000F262EC /* content.js */,
 			);
 			name = Resources;
-			path = "Dark Toggle Extension";
+			path = "Shared (Extension)";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE920412308026C600B3AA16 /* Dark Toggle */ = {
+		CE8E6D8330802FBF00F262EC /* Dark Toggle (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE92043C308026C600B3AA16 /* Build configuration list for PBXNativeTarget "Dark Toggle" */;
+			buildConfigurationList = CE8E6DC630802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle (iOS)" */;
 			buildPhases = (
-				CE92040F308026C600B3AA16 /* Sources */,
-				CE920410308026C600B3AA16 /* Frameworks */,
-				CE920411308026C600B3AA16 /* Resources */,
-				CE92043B308026C600B3AA16 /* Embed Foundation Extensions */,
+				CE8E6D8030802FBF00F262EC /* Sources */,
+				CE8E6D8130802FBF00F262EC /* Frameworks */,
+				CE8E6D8230802FBF00F262EC /* Resources */,
+				CE8E6DC530802FC000F262EC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE920431308026C600B3AA16 /* PBXTargetDependency */,
+				CE8E6DA530802FC000F262EC /* PBXTargetDependency */,
 			);
-			name = "Dark Toggle";
-			productName = "Dark Toggle";
-			productReference = CE920413308026C600B3AA16 /* Dark Toggle.app */;
+			name = "Dark Toggle (iOS)";
+			productName = "Dark Toggle (iOS)";
+			productReference = CE8E6D8430802FC000F262EC /* Dark Toggle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE92042D308026C600B3AA16 /* Dark Toggle Extension */ = {
+		CE8E6D9530802FC000F262EC /* Dark Toggle (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE920438308026C600B3AA16 /* Build configuration list for PBXNativeTarget "Dark Toggle Extension" */;
+			buildConfigurationList = CE8E6DCD30802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle (macOS)" */;
 			buildPhases = (
-				CE92042A308026C600B3AA16 /* Sources */,
-				CE92042B308026C600B3AA16 /* Frameworks */,
-				CE92042C308026C600B3AA16 /* Resources */,
+				CE8E6D9230802FC000F262EC /* Sources */,
+				CE8E6D9330802FC000F262EC /* Frameworks */,
+				CE8E6D9430802FC000F262EC /* Resources */,
+				CE8E6DCC30802FC000F262EC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
-			name = "Dark Toggle Extension";
-			productName = "Dark Toggle Extension";
-			productReference = CE92042E308026C600B3AA16 /* Dark Toggle Extension.appex */;
+			dependencies = (
+				CE8E6DAF30802FC000F262EC /* PBXTargetDependency */,
+			);
+			name = "Dark Toggle (macOS)";
+			productName = "Dark Toggle (macOS)";
+			productReference = CE8E6D9630802FC000F262EC /* Dark Toggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8E6DA130802FC000F262EC /* Dark Toggle Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E6DC230802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle Extension (iOS)" */;
+			buildPhases = (
+				CE8E6D9E30802FC000F262EC /* Sources */,
+				CE8E6D9F30802FC000F262EC /* Frameworks */,
+				CE8E6DA030802FC000F262EC /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Dark Toggle Extension (iOS)";
+			productName = "Dark Toggle Extension (iOS)";
+			productReference = CE8E6DA230802FC000F262EC /* Dark Toggle Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CE8E6DAB30802FC000F262EC /* Dark Toggle Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E6DC930802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle Extension (macOS)" */;
+			buildPhases = (
+				CE8E6DA830802FC000F262EC /* Sources */,
+				CE8E6DA930802FC000F262EC /* Frameworks */,
+				CE8E6DAA30802FC000F262EC /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Dark Toggle Extension (macOS)";
+			productName = "Dark Toggle Extension (macOS)";
+			productReference = CE8E6DAC30802FC000F262EC /* Dark Toggle Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE92040B308026C600B3AA16 /* Project object */ = {
+		CE8E6D7130802FBF00F262EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					CE920412308026C600B3AA16 = {
+					CE8E6D8330802FBF00F262EC = {
 						CreatedOnToolsVersion = 27.0;
 					};
-					CE92042D308026C600B3AA16 = {
+					CE8E6D9530802FC000F262EC = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					CE8E6DA130802FC000F262EC = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					CE8E6DAB30802FC000F262EC = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = CE92040E308026C600B3AA16 /* Build configuration list for PBXProject "Dark Toggle" */;
+			buildConfigurationList = CE8E6D7430802FBF00F262EC /* Build configuration list for PBXProject "Dark Toggle" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CE92040A308026C600B3AA16;
+			mainGroup = CE8E6D7030802FBF00F262EC;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CE920414308026C600B3AA16 /* Products */;
+			productRefGroup = CE8E6D8530802FC000F262EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE920412308026C600B3AA16 /* Dark Toggle */,
-				CE92042D308026C600B3AA16 /* Dark Toggle Extension */,
+				CE8E6D8330802FBF00F262EC /* Dark Toggle (iOS) */,
+				CE8E6D9530802FC000F262EC /* Dark Toggle (macOS) */,
+				CE8E6DA130802FC000F262EC /* Dark Toggle Extension (iOS) */,
+				CE8E6DAB30802FC000F262EC /* Dark Toggle Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE920411308026C600B3AA16 /* Resources */ = {
+		CE8E6D8230802FBF00F262EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				CE92041D308026C600B3AA16 /* Icon.png in Resources */,
-				CE920426308026C600B3AA16 /* Main.storyboard in Resources */,
-				CE920421308026C600B3AA16 /* Script.js in Resources */,
-				CE92041B308026C600B3AA16 /* Main.html in Resources */,
-				CE920428308026C600B3AA16 /* Assets.xcassets in Resources */,
-				CE92041F308026C600B3AA16 /* Style.css in Resources */,
+				CE8E6DB430802FC000F262EC /* Icon.png in Resources */,
+				CE8E6D8D30802FC000F262EC /* LaunchScreen.storyboard in Resources */,
+				CE8E6DB230802FC000F262EC /* Main.html in Resources */,
+				CE8E6DB830802FC000F262EC /* Script.js in Resources */,
+				CE8E6DBC30802FC000F262EC /* Assets.xcassets in Resources */,
+				CE8E6D9030802FC000F262EC /* Main.storyboard in Resources */,
+				CE8E6DB630802FC000F262EC /* Style.css in Resources */,
 			);
 		};
-		CE92042C308026C600B3AA16 /* Resources */ = {
+		CE8E6D9430802FC000F262EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				CE920447308026C700B3AA16 /* content.js in Resources */,
-				CE920444308026C700B3AA16 /* background.js in Resources */,
-				CE920446308026C700B3AA16 /* manifest.json in Resources */,
-				CE920445308026C700B3AA16 /* icons in Resources */,
+				CE8E6DB530802FC000F262EC /* Icon.png in Resources */,
+				CE8E6DB730802FC000F262EC /* Style.css in Resources */,
+				CE8E6D9C30802FC000F262EC /* Main.storyboard in Resources */,
+				CE8E6DB930802FC000F262EC /* Script.js in Resources */,
+				CE8E6DBD30802FC000F262EC /* Assets.xcassets in Resources */,
+				CE8E6DB330802FC000F262EC /* Main.html in Resources */,
+			);
+		};
+		CE8E6DA030802FC000F262EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CE8E6DDC30802FC000F262EC /* content.js in Resources */,
+				CE8E6DD930802FC000F262EC /* background.js in Resources */,
+				CE8E6DDB30802FC000F262EC /* manifest.json in Resources */,
+				CE8E6DDA30802FC000F262EC /* icons in Resources */,
+			);
+		};
+		CE8E6DAA30802FC000F262EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CE8E6DD830802FC000F262EC /* content.js in Resources */,
+				CE8E6DD530802FC000F262EC /* background.js in Resources */,
+				CE8E6DD730802FC000F262EC /* manifest.json in Resources */,
+				CE8E6DD630802FC000F262EC /* icons in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE92040F308026C600B3AA16 /* Sources */ = {
+		CE8E6D8030802FBF00F262EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				CE920423308026C600B3AA16 /* ViewController.swift in Sources */,
-				CE920417308026C600B3AA16 /* AppDelegate.swift in Sources */,
+				CE8E6DBA30802FC000F262EC /* ViewController.swift in Sources */,
+				CE8E6D8830802FC000F262EC /* AppDelegate.swift in Sources */,
+				CE8E6D8A30802FC000F262EC /* SceneDelegate.swift in Sources */,
 			);
 		};
-		CE92042A308026C600B3AA16 /* Sources */ = {
+		CE8E6D9230802FC000F262EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				CE920434308026C600B3AA16 /* SafariWebExtensionHandler.swift in Sources */,
+				CE8E6DBB30802FC000F262EC /* ViewController.swift in Sources */,
+				CE8E6D9930802FC000F262EC /* AppDelegate.swift in Sources */,
+			);
+		};
+		CE8E6D9E30802FC000F262EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				CE8E6DBE30802FC000F262EC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+		CE8E6DA830802FC000F262EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				CE8E6DBF30802FC000F262EC /* SafariWebExtensionHandler.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE920431308026C600B3AA16 /* PBXTargetDependency */ = {
+		CE8E6DA530802FC000F262EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE92042D308026C600B3AA16 /* Dark Toggle Extension */;
-			targetProxy = CE920430308026C600B3AA16 /* PBXContainerItemProxy */;
+			target = CE8E6DA130802FC000F262EC /* Dark Toggle Extension (iOS) */;
+			targetProxy = CE8E6DA430802FC000F262EC /* PBXContainerItemProxy */;
+		};
+		CE8E6DAF30802FC000F262EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E6DAB30802FC000F262EC /* Dark Toggle Extension (macOS) */;
+			targetProxy = CE8E6DAE30802FC000F262EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE920419308026C600B3AA16 /* Main.html */ = {
+		CE8E6D7730802FBF00F262EC /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE92041A308026C600B3AA16 /* Base */,
+				CE8E6D7830802FBF00F262EC /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		CE920424308026C600B3AA16 /* Main.storyboard */ = {
+		CE8E6D8B30802FC000F262EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE920425308026C600B3AA16 /* Base */,
+				CE8E6D8C30802FC000F262EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8E6D8E30802FC000F262EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E6D8F30802FC000F262EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8E6D9A30802FC000F262EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E6D9B30802FC000F262EC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -285,7 +473,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE920436308026C600B3AA16 /* Debug configuration for PBXProject "Dark Toggle" */ = {
+		CE8E6DC030802FC000F262EC /* Debug configuration for PBXProject "Dark Toggle" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,17 +526,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CE920437308026C600B3AA16 /* Release configuration for PBXProject "Dark Toggle" */ = {
+		CE8E6DC130802FC000F262EC /* Release configuration for PBXProject "Dark Toggle" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,107 +581,101 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		CE920439308026C600B3AA16 /* Debug configuration for PBXNativeTarget "Dark Toggle Extension" */ = {
+		CE8E6DC330802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle Extension (iOS)" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHXVCG6G25;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Dark Toggle Extension/Info.plist";
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Toggle Extension";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CE92043A308026C600B3AA16 /* Release configuration for PBXNativeTarget "Dark Toggle Extension" */ = {
+		CE8E6DC430802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle Extension (iOS)" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHXVCG6G25;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Dark Toggle Extension/Info.plist";
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle.Extension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Toggle Extension";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CE92043D308026C600B3AA16 /* Debug configuration for PBXNativeTarget "Dark Toggle" */ = {
+		CE8E6DC730802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle (iOS)" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHXVCG6G25;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Dark Toggle/Info.plist";
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
@@ -505,8 +685,165 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Toggle";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8E6DC830802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHXVCG6G25;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle;
+				PRODUCT_NAME = "Dark Toggle";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8E6DCA30802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHXVCG6G25;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle.Extension;
+				PRODUCT_NAME = "Dark Toggle Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE8E6DCB30802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHXVCG6G25;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle.Extension;
+				PRODUCT_NAME = "Dark Toggle Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE8E6DCE30802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHXVCG6G25;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle;
+				PRODUCT_NAME = "Dark Toggle";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -516,30 +853,28 @@
 			};
 			name = Debug;
 		};
-		CE92043E308026C600B3AA16 /* Release configuration for PBXNativeTarget "Dark Toggle" */ = {
+		CE8E6DCF30802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle (macOS)" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHXVCG6G25;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Dark Toggle/Info.plist";
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Dark Toggle";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				INFOPLIST_KEY_NSViewGestureRecognizerIsExclusive = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -548,8 +883,9 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.castro.DarkToggle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Toggle";
 				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -562,32 +898,48 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE92040E308026C600B3AA16 /* Build configuration list for PBXProject "Dark Toggle" */ = {
+		CE8E6D7430802FBF00F262EC /* Build configuration list for PBXProject "Dark Toggle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE920436308026C600B3AA16 /* Debug configuration for PBXProject "Dark Toggle" */,
-				CE920437308026C600B3AA16 /* Release configuration for PBXProject "Dark Toggle" */,
+				CE8E6DC030802FC000F262EC /* Debug configuration for PBXProject "Dark Toggle" */,
+				CE8E6DC130802FC000F262EC /* Release configuration for PBXProject "Dark Toggle" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		CE920438308026C600B3AA16 /* Build configuration list for PBXNativeTarget "Dark Toggle Extension" */ = {
+		CE8E6DC230802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE920439308026C600B3AA16 /* Debug configuration for PBXNativeTarget "Dark Toggle Extension" */,
-				CE92043A308026C600B3AA16 /* Release configuration for PBXNativeTarget "Dark Toggle Extension" */,
+				CE8E6DC330802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle Extension (iOS)" */,
+				CE8E6DC430802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle Extension (iOS)" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		CE92043C308026C600B3AA16 /* Build configuration list for PBXNativeTarget "Dark Toggle" */ = {
+		CE8E6DC630802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE92043D308026C600B3AA16 /* Debug configuration for PBXNativeTarget "Dark Toggle" */,
-				CE92043E308026C600B3AA16 /* Release configuration for PBXNativeTarget "Dark Toggle" */,
+				CE8E6DC730802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle (iOS)" */,
+				CE8E6DC830802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle (iOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CE8E6DC930802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E6DCA30802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle Extension (macOS)" */,
+				CE8E6DCB30802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle Extension (macOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CE8E6DCD30802FC000F262EC /* Build configuration list for PBXNativeTarget "Dark Toggle (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E6DCE30802FC000F262EC /* Debug configuration for PBXNativeTarget "Dark Toggle (macOS)" */,
+				CE8E6DCF30802FC000F262EC /* Release configuration for PBXNativeTarget "Dark Toggle (macOS)" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE92040B308026C600B3AA16 /* Project object */;
+	rootObject = CE8E6D7130802FBF00F262EC /* Project object */;
 	validationLevel = 1;
 }
